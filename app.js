@@ -64,7 +64,7 @@ function plotMagnitudeHistogram(earthquakeData) {
         x: magnitudes,
         type: 'histogram',
         marker: {
-            color: 'blue'
+            color: 'pink'
         }
     };
     const layout = {
@@ -88,7 +88,7 @@ function plotDailyEarthquakeFrequency(earthquakeData) {
             type: 'scatter',
             mode: 'lines+markers',
             marker: {
-                color: 'blue',
+                color: 'red',
                 size: 10
             }
         };
@@ -110,7 +110,7 @@ function plotMagnitudeVsDepths(earthquakeData) {
         y: depths,
         mode: 'markers',
         type: 'scatter',
-        marker: {size: 8, color: 'green'}
+        marker: {size: 8, color: 'blue'}
     };
     const layout = {
         title: 'Magnitude Vs Depth',
