@@ -1,0 +1,40 @@
+/* style.css */
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Container */
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Title */
+.title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Graph Container */
+.graph-container {
+    width: 48%; /* Ajustez la largeur en fonction de vos besoins */
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
